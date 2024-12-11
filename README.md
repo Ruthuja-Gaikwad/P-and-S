@@ -27,11 +27,3 @@ Clone the repository:
 2. Amount Input: Users input the amount they wish to convert, and the system will calculate the equivalent amount in the selected target currency.
 3. Exchange Rate API: The app fetches the latest exchange rates from the API (https://open.er-api.com/v6/latest/USD), which returns the rates for multiple currencies in relation to USD.
 4. Conversion Calculation: The selected amount is multiplied by the exchange rate for the selected target currency to get the converted amount.
-# File Structure
-currency-converter/
-│
-├── index.html        # HTML structure of the page
-├── style.css         # Styling for the currency converter
-├── script.js         # JavaScript logic for fetching and displaying exchange rates
-└── README.md         # This readme file
-
