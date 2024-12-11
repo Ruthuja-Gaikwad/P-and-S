@@ -17,16 +17,16 @@ https://open.er-api.com/v6/latest/USD
 This API provides real-time exchange rates for multiple currencies based on USD as the base currency.
 # How to Use
 Clone the repository:
-git clone https://github.com/Ruthuja-Gaikwad/currency-converter.git
-Open the index.html file in your browser to view the application.
-Select the currencies you want to convert between using the dropdown menus.
-Enter the amount you wish to convert.
-Click the "Convert" button, and the result will be displayed with the converted amount.
+1. git clone https://github.com/Ruthuja-Gaikwad/currency-converter.git
+2. Open the index.html file in your browser to view the application.
+3. Select the currencies you want to convert between using the dropdown menus.
+4. Enter the amount you wish to convert.
+5. Click the "Convert" button, and the result will be displayed with the converted amount.
 # How It Works
-Dropdown Menus: The user can select the source (from) and target (to) currencies from the dropdown lists. The currencies are populated dynamically using JavaScript.
-Amount Input: Users input the amount they wish to convert, and the system will calculate the equivalent amount in the selected target currency.
-Exchange Rate API: The app fetches the latest exchange rates from the API (https://open.er-api.com/v6/latest/USD), which returns the rates for multiple currencies in relation to USD.
-Conversion Calculation: The selected amount is multiplied by the exchange rate for the selected target currency to get the converted amount.
+1. Dropdown Menus: The user can select the source (from) and target (to) currencies from the dropdown lists. The currencies are populated dynamically using JavaScript.
+2. Amount Input: Users input the amount they wish to convert, and the system will calculate the equivalent amount in the selected target currency.
+3. Exchange Rate API: The app fetches the latest exchange rates from the API (https://open.er-api.com/v6/latest/USD), which returns the rates for multiple currencies in relation to USD.
+4. Conversion Calculation: The selected amount is multiplied by the exchange rate for the selected target currency to get the converted amount.
 # File Structure
 currency-converter/
 │
